@@ -1,0 +1,11 @@
+.filter {
+    position: absolute;
+    width: 360px;
+    height: 280px;
+    background-color: white;
+    margin-top: 300px;
+}
+.filter-head{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Proxima";
+    font-style: normal;
+    src: url('../../Assets/Fonts/ProximaNova-Regular.otf');
+}
+
+.guest-navbar {
+    position: relative;
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid grey;
+}
+.gn-logo {
+    margin-top: 5px;
+    margin-left: 20px;
+    color: #00b58b;
+}
+.account-sections {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.gn-notification {
+    width: 311px;
+    height: 425px;
+    background-color: white;
+    z-index: 2;
+    position: fixed;
+    transform: translate(-50%, 20%);
+    left: 50%;
+    border-radius: 10px;
+    border: 3px solid #0FBB92;
+}
+
+.gn-modal-title {
+    font-family: Proxima;
+    font-size: 24px;
+    text-align: center;
+    color: #0FBB92;
+    font-weight: 700;
+
+}
+.gn-signin-fb {
+    width: 247px;
+    height: 48px;
+    background-color: #4167B2;
+    color: white;
+    font-family: Proxima;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    transform: translate(12%, 20%);
+    left: 50%;
+}
+
+.gn-signin-twitter {
+    width: 247px;
+    height: 48px;
+    background-color: #1DA1F3;
+    color: white;
+    font-family: Proxima;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    transform: translate(12%, 50%);
+    left: 50%;
+}
+
+
+.gn-signin-back {
+    width: 247px;
+    height: 48px;
+    background-color: white;
+    color: black;
+    font-family: Proxima;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border: 2px solid #0FBB92;
+    border-radius: 10px;
+    transform: translate(-50%, 80%);
+    left: 50%;
+    position: absolute;
+    bottom: 70px;
+}
+.or {
+    position: relative;
+    margin-top: 50px;
+    font-family: Proxima;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+}
+.nav-icon {
+    margin-left: 10px;
+    margin-top: 10px;
+}

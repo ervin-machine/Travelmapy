@@ -1,0 +1,75 @@
+.post-card {
+    position: relative;
+    width: 245px;
+    height: 362px;
+    margin-left: 10px;
+}
+.post-images {
+    position: relative;
+    display: flex;
+    width: 213px;
+    height: 167px;
+}
+.post-image-info {
+    position: relative;
+    display: flex;
+    width: 213px;
+    height: 48px;
+    background-color: #302C39;
+    opacity: 85%;
+    margin-top: -48px;
+    
+}
+.post-marker {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.post-video {
+    position: absolute;
+    right: 0;
+}
+.post-video-num {
+    color: white;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.post-autor {
+    display: flex;
+    margin-top: 10px;
+}
+.autor-picture {
+    width: 30px;
+    height: 30px;
+}
+.autor-name {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.post-name {
+    margin-top: -5px;
+}
+.post-info {
+    width: 213px;
+}
+.post-text {
+    margin-top: -10px;
+    font-size: 13px;
+}
+.post-counters-controls {
+    display: flex;
+    justify-content: space-between;
+}
+.post-counters {
+    display: flex;
+    
+}
+.counter-icon {
+    margin-left: 30px;
+}
+.post-controls {
+    display: flex;
+    margin-right: 50px;
+}
+.control-icon {
+    margin-left: 10px;
+}

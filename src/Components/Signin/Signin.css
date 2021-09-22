@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Proxima";
+    font-style: normal;
+    src: url('../../Assets/Fonts/ProximaNova-Regular.otf');
+}
+.gn-signin-email {
+    width: 247px;
+    height: 48px;
+    background-color: #F5F5F5;
+    color: black;
+    font-family: Proxima;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    transform: translate(12%, 80%);
+    left: 50%;
+}
+.signin-content {
+    position: fixed;
+    z-index: 2;
+    transform: translate(-50%, -1%);
+    left: 50%;
+    width: 311px;
+    height: 425px;
+    background-color: white;
+    top: 0;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #0FBB92;
+}
+.signin-head {
+    font-family: Proxima;
+    font-size: 24px;
+    text-align: center;
+    color: #0FBB92;
+    font-weight: 400;
+}
+.signin-text {
+    font-family: Proxima;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+    margin-top: -20px;
+}
+.signin-input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid gray;
+    width: 80%;
+    margin-top: 10px;
+    height: 30px;
+}
+.signin-back {
+    height: 48px;
+    width: 108px;
+    border: 2px solid #0FBB92;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Proxima;
+}
+.signin-confirm {
+    height: 48px;
+    width: 108px;
+    border: 2px solid #0FBB92;
+    border-radius: 10px;
+    background-color: #0FBB92;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Proxima;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.signin-button {
+    margin-top: -40px;
+}
+.input {
+    margin-top: 70px;
+}
+.signin-buttons {
+    margin-top: 90px;
+}

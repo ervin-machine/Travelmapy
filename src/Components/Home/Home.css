@@ -1,0 +1,24 @@
+.home{
+    position: relative;
+}
+.map-container {
+    height: 400px;
+}
+.posts {
+    display: flex;
+    overflow-x: scroll;
+}
+.popular {
+    display: flex;
+    justify-content: space-between;
+}
+.popular-text {
+    font-size: 18px;
+    line-height: 21px;
+    color:#00B58B;
+}
+.see-all {
+    font-size: 18px;
+    line-height: 21px;
+    color:#827F88;
+}

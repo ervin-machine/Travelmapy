@@ -1,0 +1,26 @@
+.save-list{
+    position: absolute;
+    top: -100%;
+    left: 200%;
+    width: 284px;
+    height: 260px;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    background-color: white;
+}
+.save-list-head{
+    font-size: 18px;
+    line-height: 21px;
+    color: #302C39;
+    margin-left: 40px;
+}
+.save-list-item{
+    list-style: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #302C39;
+}
+.hr {
+    width: 70%;
+    margin-left: 0px;
+}

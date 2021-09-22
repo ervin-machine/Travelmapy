@@ -1,0 +1,26 @@
+.share-list{
+    position: absolute;
+    top: -90%;
+    left: 200%;
+    width: 284px;
+    height: 194px;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    background-color: white;
+}
+.share-list-head{
+    font-size: 18px;
+    line-height: 21px;
+    color: #302C39;
+    margin-left: 40px;
+}
+.share-list-item{
+    list-style: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #302C39;
+}
+.hr {
+    width: 70%;
+    margin-left: 0px;
+}
